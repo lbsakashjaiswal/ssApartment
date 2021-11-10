@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background-color: #fff;
+}
+
+.navbarContent {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navigation {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(183, 28, 28);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 51px;
+  color: white;
+  font-weight: 200;
+}
+
+.logo {
+  margin-left: 12px;
+}
+
+.logoHeading2 {
+  /* font-weight: 200; */
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.logoHeading1 {
+  margin-left: 5px;
+  letter-spacing: 4px;
+}
+
+.remainingBalance {
+  float: right;
+  margin-right: 5px;
+  color: white;
+  line-height: 51px;
+  letter-spacing: 1px;
+}
+
+/* Section 2 */
+.monthHeading {
+  width: auto;
+  height: 51px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.monthHeading p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+/* Table Section */
+.tableHeadingPart {
+  background-color: rgb(183, 28, 28) !important;
+  border: 1px solid rgb(183, 28, 28) !important;
+  height: 40px;
+  color: white;
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+}
+.tablePart {
+  width: 700px;
+  height: auto;
+  margin: auto;
+  background-color: #fff;
+  margin-top: 5px;
+  border: 2px solid #dee2e6;
+  font-size: 15px;
+}
+
+tr th {
+  text-align: center;
+  color: #545454;
+}
+
+/* Payment */
+.statusPayment {
+  border: 2px solid rgb(187, 236, 187);
+  width: 89px;
+  height: 30px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(187, 236, 187);
+  color: green;
+  font-weight: 350;
+  float: right;
+  margin-left: 30px;
+}
+
+.payment {
+  margin-left: 2px;
+}
+.foorteLine {
+  text-align: center;
+  color: #666d72;
+}
+.myName {
+  color: slategray;
+  margin-top: 10px;
+}
+.fa-heart-o {
+  color: rgb(183, 28, 28);
+}
+/* 
+  order: 2px solid #f6a4a4;
+  width: 89px;
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #f6a4a4;
+  color: red;
+  font-weight: 350;
+*/

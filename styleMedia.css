@@ -1,0 +1,53 @@
+/* Media  Query */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .logo {
+    width: 27px;
+    height: 20px;
+  }
+  .logoHeading1,
+  .logoHeading2 {
+    font-size: 15px;
+  }
+  .remainingBalance span {
+    font-size: 15px;
+  }
+  .monthHeading p,
+  .monthHeading {
+    font-size: 25px;
+    height: 33px;
+  }
+  tbody,
+  .statusPayment {
+    margin-top: 10px;
+    font-size: 12.5px;
+    padding: 4px;
+    float: none;
+  }
+  .buttons button {
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .buttons {
+    padding: 0px;
+  }
+  .modal-header {
+    height: 55px;
+  }
+  .modalForExpenses {
+    font-size: 14px;
+  }
+  .foorteLine {
+    font-size: 12px;
+  }
+  .myName {
+    font-size: 13px;
+    color: slategray;
+    margin-top: 10px;
+  }
+  .fa-heart-o {
+    color: rgb(183, 28, 28);
+  }
+}
