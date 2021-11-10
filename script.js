@@ -8,7 +8,6 @@ for (var i = 0; i < 18; i++) {
   temp = document.getElementsByClassName("payment")[i].innerHTML;
   x = temp.replace(/[^\w\s]/gi, "");
   filterAmount = parseInt(x);
-
   if (!isNaN(filterAmount)) {
     if (filterAmount >= 100 && filterAmount < 500) {
       Tbalance += filterAmount;
