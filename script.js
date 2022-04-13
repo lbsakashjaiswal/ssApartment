@@ -21,7 +21,7 @@ for (var i = 0; i < 18; i++) {
     y[i].style.backgroundColor = "rgb(243,156,156)";
     y[i].style.border = "rgb(243,156,156)";
     y[i].style.color = "red";
-    y[i].style.padding = "7px";
+    y[i].style.padding = "4px";
     document.getElementsByClassName("statusPayment")[i].innerHTML = "Unpaid";
   }
 }

@@ -29,9 +29,8 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="styleMedia.css" />
-
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/styleMedia.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -65,11 +64,10 @@
         <div class="remainingBalance">
           <span>Balance <span class="topHeadBalance"></span>/-</span>
         </div>
-        <!-- <div class="clr"></div> -->
       </div>
       <!-- Section 2 -->
       <div class="monthHeading">
-        <p>April</p>
+        <p>January</p>
       </div>
       <!-- Section 3 -->
       <div class="tablePart table-responsive-md">
@@ -91,7 +89,7 @@
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
-                Nand Kishor Ji<span class="payment">(500/-)</span
+                Nand Kishor Ji<span class="payment"></span
                 ><span type="button" class="statusPayment">Paid </span>
               </td>
             </tr>
@@ -111,7 +109,7 @@
             </tr>
             <tr>
               <td>
-                Rajesh Jain Ji (Vacant Flat)<span class="payment"></span>
+                Rajesh Jain Ji (Anoop Ji)<span class="payment">(500/-)</span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
@@ -125,7 +123,7 @@
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
-                Mukesh Jha Ji<span class="payment">(500/-)</span>
+                Mukesh Jha Ji<span class="payment"></span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
             </tr>
@@ -145,7 +143,7 @@
             </tr>
             <tr>
               <td>
-                Rajesh Ji (Back Side)<span class="payment">(500/-)</span>
+                Rajesh Ji<span class="payment">(500/-)</span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
@@ -163,7 +161,7 @@
             </tr>
             <tr>
               <td>
-                Tarun Mishra Ji<span class="payment">(500/-)</span>
+                Sudhir Ji (Vacant Flat)<span class="payment"></span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
@@ -173,7 +171,7 @@
             </tr>
             <tr>
               <td>
-                YadavRam Ji (Vacant Flat)<span class="payment"></span>
+                YadavRam Ji(Auto wale)<span class="payment">(250/-)</span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
@@ -191,11 +189,11 @@
             </tr>
             <tr>
               <td>
-                Parking Shop (Anis Ji) <span class="payment">(300/-)</span>
+                Parking Shop (Anis Ji)<span class="payment"></span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
               <td>
-                Baccha Floor<span class="payment">(100/-)</span>
+                Baccha Floor<span class="payment"></span>
                 <span type="button" class="statusPayment">Paid </span>
               </td>
             </tr>
@@ -212,26 +210,9 @@
           >
             Expenses
           </button>
-
-          <!--<a href="./Feb_22/february.html">
+          <a href="/index.html">
             <button type="button" class="btn btn-secondary monthlyButtons">
-              April
-            </button>
-          </a>-->
-
-          <a href="./Mar_22/march.html">
-            <button type="button" class="btn btn-secondary monthlyButtons">
-              March
-            </button>
-          </a>
-          <a href="./Feb_22/february.html">
-            <button type="button" class="btn btn-secondary monthlyButtons">
-              February
-            </button>
-          </a>
-          <a href="./Jan_22/january.html">
-            <button type="button" class="btn btn-secondary monthlyButtons">
-              January
+              Back
             </button>
           </a>
         </div>
@@ -272,19 +253,13 @@
                 <br />
                 <br />
                 <li>
-                  Gita (Kachara)(01/11/21) = Rs
-                  <span class="expenses">1400</span>/-
-                </li>
-                <li>Jarina(Pocha) = Rs <span class="expenses">1700</span>/-</li>
-                <li>
-                  Gutter Jet Safai = Rs <span class="expenses">1000</span>/-
+                  Gita (Kachara) = Rs <span class="expenses">1400</span>/-
                 </li>
                 <li>
-                  Meter Connector = Rs <span class="expenses">500</span>/-
+                  Jarina(Poocha) = Rs <span class="expenses">1700</span>/-
                 </li>
-                <li>
-                  CCTV Wifi Connection = Rs <span class="expenses">500</span>/-
-                </li>
+                <li>Wifi = Rs <span class="expenses">100</span>/-</li>
+
                 <br />
                 |-------- Final Calculation --------|
                 <br />
@@ -313,7 +288,7 @@
       <!-- Footer -->
       <div class="foorteLine">
         <br />
-        &copy; Last updated on 13 Apr 22
+        &copy; Last updated on 15 Jan 22
       </div>
       <!-- End Footer -->
       <!--footer copyrights-->
@@ -330,13 +305,10 @@
         </div>
       </footer>
     </div>
-
-    <script type="text/javascript" src="/script.js"></script>
-    <!-- <script type="text/javascript" src="./Sept_21/script.js"></script> -->
+    <script src="/script.js"></script>
     <script>
       // Modal
-      var lbBalance = 26390;
-      // var lbBalance = Number(localStorage.septBalance);
+      var lbBalance = 21940;
       document.getElementById("exampleModalLabel").innerHTML =
         document.getElementsByClassName("monthHeading")[0].innerHTML;
       document.getElementsByClassName("currentBalance")[0].innerHTML = Tbalance;
@@ -359,6 +331,8 @@
       document.getElementsByClassName("grandTotalForModal")[0].innerHTML =
         grandTotalForAll;
       document.getElementsByClassName("topHeadBalance")[0].innerHTML =
+        grandTotalForAll;
+      document.getElementsByClassName("demoForRun")[0].innerHTML =
         grandTotalForAll;
     </script>
   </body>
